@@ -44,3 +44,29 @@ Console.WriteLine(" *** ");
 Console.WriteLine("*****");
 */
 
+/*user input number then determine even or odd
+Console.Write("Enter a number ___");
+var resp = Console.ReadLine();
+var nbr = Convert.ToInt32(resp);
+while (nbr != 0) {
+    if (nbr % 2 == 0) {
+        Console.WriteLine($"{nbr} is even.");
+        }
+    else if (nbr % 2 != 0) {
+        Console.WriteLine($"{nbr} is odd.");
+        }
+    Console.Write("Enter a number ___");
+    resp = Console.ReadLine();
+    nbr = Convert.ToInt32(resp);
+    }
+*/
+
+/*count 1-100, sum only odd
+var sum = 0;
+    for(var idx = 1; idx <= 10; idx++) {
+        if (idx % 2 != 0) {
+        sum = sum + idx;
+        }
+    }
+Console.WriteLine(sum);
+*/
